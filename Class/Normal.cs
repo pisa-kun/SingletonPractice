@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace SingletonSample.Class
 {
+    /// <summary>
+    /// 普通のクラス
+    /// </summary>
     public class Normal : IAPI
     {
         /// <summary>

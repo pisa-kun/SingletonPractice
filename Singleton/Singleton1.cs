@@ -19,9 +19,9 @@ namespace SingletonSample.Singleton
         public static Singleton1 GetInstance() => _singleton1;
         
         /// <summary>
-        /// publicコンストラクタでは何もしない
+        /// publickだとインスタンス生成できるのでprivateにする
         /// </summary>
-        public Singleton1()
+        private Singleton1()
         { }
 
         /// <summary>

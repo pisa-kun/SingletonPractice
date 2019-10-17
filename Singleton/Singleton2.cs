@@ -31,10 +31,7 @@ namespace SingletonSample.Singleton
         //    get { return _singleton2 ?? (_singleton2 = new Singleton2()); }
         //}
 
-        /// <summary>
-        /// publicコンストラクタでは何もしない
-        /// </summary>
-        public Singleton2()
+        private Singleton2()
         { }
 
         /// <summary>

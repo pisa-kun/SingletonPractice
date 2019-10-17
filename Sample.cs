@@ -16,10 +16,12 @@ namespace SingletonSample
         {
             // step1
             Console.WriteLine("-Step1-");
+            // var s = new Singleton1(); // new演算子はアクセスできないレベルにしている
 
             var s1 = Singleton1.GetInstance(); // Singleton1クラスのインスタンス取得
             var s2 = Singleton2.GetInstance(); // Singleton2クラスのインスタンス取得
             var n = new Normal("pisa");
+
 
             // Helloメソッドの内容を表示
             // s1,s2はNameがnull

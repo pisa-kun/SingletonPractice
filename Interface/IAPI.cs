@@ -13,6 +13,7 @@ namespace SingletonSample.Singleton
     {
         /// <summary>
         /// インターフェースはstaticメソッドをもてない
+        /// C#8.0からはstaticやアクセス修飾子をインターフェースがもてる
         /// </summary>
         /// <returns></returns>
         //static ISingleton GetInstance();
